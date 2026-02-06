@@ -79,6 +79,6 @@ def detect_shot_boundaries(video_path, output_dir, tad_thresh=100e6, svd_thresh=
                         frames[idx].astype(np.uint8))
 
 if __name__ == "__main__":
-    video_file = r"C:\Users\cumal\OneDrive\Masaüstü\github\scene_change\testvideo.mp4"
+    video_file = "testvideo.mp4" #Path to the input video file
     output_folder = "results"
     detect_shot_boundaries(video_file, output_folder)
